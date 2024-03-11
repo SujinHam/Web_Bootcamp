@@ -1,0 +1,17 @@
+img {
+    width: 30%;
+    /*30, 30, 30, 10. 나머지 10을 margin으로 분배한다.*/
+    margin: calc(10%/6);
+    /* = margin: 1.66666% */
+
+}
+
+nav {
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    margin-left: calc(10%/6);
+    padding: 20px 0;
+    font-family: "Madimi One", sans-serif;
+    font-size: 25px;
+}
